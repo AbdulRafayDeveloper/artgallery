@@ -1,8 +1,7 @@
-import MainImage from "@/app/Models/MainImage";
+import MainImage from "../../../models/MainImage";
 import { connectDB } from "@/app/config/db";
 import { successResponse, notFoundResponse, serverErrorResponse } from "@/app/helpers/apiResponseHelpers";
 import { promises as fs } from "fs";
-import fsWithoutPromises from "fs";
 import path from "path";
 import { Parser } from 'json2csv';
 import * as helper from "@/app/helpers/apiHelpers";

@@ -1,4 +1,4 @@
-import MainImage from "@/app/models/MainImage";
+import MainImage from "../../../models/MainImage";
 import { connectDB } from "@/app/config/db";
 import { successResponse, serverErrorResponse, notFoundResponse } from "@/app/helpers/apiResponseHelpers";
 
