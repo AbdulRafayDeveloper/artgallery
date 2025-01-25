@@ -175,9 +175,6 @@ function Page() {
                       Title
                     </th>
                     <th scope="col" className="px-6 py-3 md:px-6 md:py-3 text-center" style={{ fontSize: "14px" }}>
-                      Thumbnail
-                    </th>
-                    <th scope="col" className="px-6 py-3 md:px-6 md:py-3 text-center" style={{ fontSize: "14px" }}>
                       Type
                     </th>
                     <th scope="col" className="px-6 py-3 md:px-6 md:py-3 text-center" style={{ fontSize: "14px" }}>
@@ -200,9 +197,6 @@ function Page() {
                       <tr key={item._id} className="bg-white border-2 border-gray-200">
                         <td className="px-6 py-2 font-medium text-gray-900 whitespace-nowrap text-center border-2 border-gray-200" style={{ fontSize: "14px" }}>
                           {item.object.subjectTitle}
-                        </td>
-                        <td className="px-6 text-gray-900 border-2 border-gray-200" style={{ fontSize: "14px" }}>
-                          <Image src={`${item.thumbnail}`} alt="employee pic" width={50} height={40} className='text-center mx-auto' />
                         </td>
                         <td className="px-6 text-center border-2 border-gray-200" style={{ fontSize: "14px" }}>{item.object.type}</td>
                         <td className="px-6 text-center border-2 border-gray-200" style={{ fontSize: "14px" }}>{item.object.century}th c</td>
