@@ -14,7 +14,7 @@ import Swal from 'sweetalert2';
 import JSZip from 'jszip';
 import { saveAs } from 'file-saver';
 
-function page({ params }) {
+function Page({ params }) {
   const router = useRouter();
   const id = params.id;
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -871,4 +871,4 @@ function page({ params }) {
   );
 }
 
-export default page;
+export default Page;
