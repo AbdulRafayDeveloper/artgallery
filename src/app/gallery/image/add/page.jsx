@@ -12,7 +12,7 @@ import { FaPlus, FaMinus } from 'react-icons/fa';
 import axios from "axios";
 import Swal from 'sweetalert2';
 
-function page() {
+function Page() {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -881,4 +881,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
